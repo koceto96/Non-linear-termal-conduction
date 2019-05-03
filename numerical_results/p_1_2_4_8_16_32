@@ -1,0 +1,80 @@
+Running on host node-sw-157
+Will run command: mpirun -np 1 ./main
+Value of m =  512
+|---k---|------CG iterations------|---------||r||---------|
+|    0  |      1305               |        1.2818761E+02  |
+|    1  |      1543               |        1.2817541E+01  |
+|    2  |      2123               |        1.1399083E-01  |
+The total CG iterations:  4971
+Time spent in CG iterations:     18.0674964
+Time for 1 CG iteration:      0.0036346
+After   3 Newton steps the maximum temperature umax =   0.224421837036
+Time it took for the Newton method to finish:  22.4543161230
+
+Running on host node-sw-157
+Will run command: mpirun -np 2 ./main
+Value of m =  512
+|---k---|------CG iterations------|---------||r||---------|
+|    0  |      1305               |        1.2818761E+02  |
+|    1  |      1543               |        1.2817541E+01  |
+|    2  |      2123               |        1.1399082E-01  |
+The total CG iterations:  4971
+Time spent in CG iterations:     11.1339834
+Time for 1 CG iteration:      0.0022398
+After   3 Newton steps the maximum temperature umax =   0.224421837036
+Time it took for the Newton method to finish:  11.1849884930
+
+Running on host node-sw-157
+Will run command: mpirun -np 4 ./main
+Value of m =  512
+|---k---|------CG iterations------|---------||r||---------|
+|    0  |      1305               |        1.2818761E+02  |
+|    1  |      1543               |        1.2817541E+01  |
+|    2  |      2123               |        1.1399083E-01  |
+The total CG iterations:  4971
+Time spent in CG iterations:      5.7785599
+Time for 1 CG iteration:      0.0011625
+After   3 Newton steps the maximum temperature umax =   0.224421837036
+Time it took for the Newton method to finish:   5.8075010690
+
+Running on host node-sw-157
+Will run command: mpirun -np 8 ./main
+Starting job on 8 processes...
+Value of m =  512
+|---k---|------CG iterations------|---------||r||---------|
+|    0  |      1305               |        1.2818761E+02  |
+|    1  |      1543               |        1.2817541E+01  |
+|    2  |      2123               |        1.1399083E-01  |
+The total CG iterations:  4971
+Time spent in CG iterations:      2.7851664
+Time for 1 CG iteration:      0.0005603
+After   3 Newton steps the maximum temperature umax =   0.224421837036
+Time it took for the Newton method to finish:   2.8039538180
+
+Running on host node-sw-157
+Will run command: mpirun -np 16 ./main
+Starting job on 16 processes...
+Value of m =  512
+|---k---|------CG iterations------|---------||r||---------|
+|    0  |      1305               |        1.2818761E+02  |
+|    1  |      1543               |        1.2817541E+01  |
+|    2  |      2123               |        1.1399083E-01  |
+The total CG iterations:  4971
+Time spent in CG iterations:      1.4573480
+Time for 1 CG iteration:      0.0002932
+After   3 Newton steps the maximum temperature umax =   0.224421837036
+Time it took for the Newton method to finish:   1.4756382340
+
+Running on host node-sw-157
+Will run command: mpirun -np 32 ./main
+Starting job on 32 processes...
+Value of m =  512
+|---k---|------CG iterations------|---------||r||---------|
+|    0  |      1305               |        1.2818761E+02  |
+|    1  |      1543               |        1.2817541E+01  |
+|    2  |      2123               |        1.1399083E-01  |
+The total CG iterations:  4971
+Time spent in CG iterations:      0.8113045
+Time for 1 CG iteration:      0.0001632
+After   3 Newton steps the maximum temperature umax =   0.224421837036
+Time it took for the Newton method to finish:   0.8228218840
